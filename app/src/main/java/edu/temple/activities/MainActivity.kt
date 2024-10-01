@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 const val DISPLAY_KEY = "DisplayActivityKey"
+const val RETURN_KEY = "ReturnActivityKey"
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,6 +37,10 @@ class MainActivity : AppCompatActivity() {
             adapter = TextSizeAdapter(textSizes, callback)
             layoutManager = LinearLayoutManager(this@MainActivity)
         }
+
+//        findViewById<TextView>(R.id.mainMessage).apply{
+//            text = intent.getStringExtra(RETURN_KEY)
+//        }
 
 
     }

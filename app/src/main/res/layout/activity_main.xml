@@ -23,4 +23,14 @@
         app:layout_constraintGuide_begin="20dp"
         app:layout_constraintGuide_percent=".6" />
 
+    <TextView
+        android:id="@+id/mainMessage"
+        android:layout_width="142dp"
+        android:layout_height="66dp"
+        android:text="Set font size"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="512dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

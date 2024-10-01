@@ -16,12 +16,12 @@ class DisplayActivity : AppCompatActivity() {
             textSize = intent.getIntExtra(DISPLAY_KEY, 0).toFloat()
         }
 
-        findViewById<Button>(R.id.returnButton).setOnClickListener{
-            val returnIntent = Intent(this, MainActivity::class.java)
-            returnIntent.putExtra(RETURN_KEY, "Wow you came back")
-            startActivity(returnIntent)
-
-        }
+//        findViewById<Button>(R.id.returnButton).setOnClickListener{
+//            val returnIntent = Intent(this, MainActivity::class.java)
+//            returnIntent.putExtra(RETURN_KEY, "Wow you came back")
+//            startActivity(returnIntent)
+//
+//        }
 
 
     }
